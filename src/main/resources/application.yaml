@@ -1,8 +1,13 @@
 server:
-  port: 8088  # 端口号
+  port: 8080  # 端口号
 spring:
+  application:
+    name: Stan-dev
+  main:
+    allow-bean-definition-overriding: true
+
   datasource:
-    type: com.alibaba.druid.pool.DruidDataSource # 数据库连接池实现类
+    type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://127.0.0.1:3306/ticket_dev?serverTimezone=Asia/Shanghai
     username: root
