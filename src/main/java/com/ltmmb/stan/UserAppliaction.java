@@ -12,6 +12,7 @@ import org.springframework.context.annotation.ComponentScan;
 public class UserAppliaction {
     public static void main(String[] args) {
         SpringApplication.run(UserAppliaction.class,args);
+        System.out.println("我是develop。。。。。。。。。。");
 
     }
 }
