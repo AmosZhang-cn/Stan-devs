@@ -14,7 +14,6 @@ public class UserAppliaction {
         SpringApplication.run(UserAppliaction.class,args);
         System.out.println("我是develop。。。。。。。。。。");
         System.out.println("我是develop-Stanzhang。。。。。。。。。。");
-
-
+        System.out.println("我是sit分支");
     }
 }
