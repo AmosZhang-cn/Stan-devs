@@ -13,6 +13,8 @@ public class UserAppliaction {
     public static void main(String[] args) {
         SpringApplication.run(UserAppliaction.class,args);
         System.out.println("我是develop。。。。。。。。。。");
+        System.out.println("我是develop-Stanzhang。。。。。。。。。。");
+
 
     }
 }
